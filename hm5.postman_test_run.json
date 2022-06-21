@@ -1,0 +1,172 @@
+{
+	"id": "5d920356-0058-4dc9-932c-85cf5f60cb8f",
+	"name": "hm5",
+	"timestamp": "2022-06-16T15:43:40.940Z",
+	"collection_id": "21420624-2dad5dff-d495-42ed-94d2-48481d551164",
+	"folder_id": 0,
+	"environment_id": "21420624-511ea914-d261-412c-aa35-9b88f4ef08a7",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fc2269cc-1f7a-469f-9dba-c7b14475c3d0",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Alex&age=26",
+			"time": 191,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				191
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "662b765f-bde8-42bb-9fb5-223e504ca7f8",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 188,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				188
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8806d02a-2889-40fb-8be3-e80a0c15af25",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Alex&age=26&weight=84",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				182
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf3817a1-fda4-4cdc-a2c8-f0a4daea2dd2",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Alex&age=26&salary=50000",
+			"time": 184,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				184
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4ae98c5c-3e32-4567-aba8-da1cb0d76a2c",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Alex&age=26&salary=50000",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				189
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f5f3b4ef-bd26-4362-8048-758a25784697",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Alex&age=26&salary=50000",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				182
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d1b6d6d1-6c42-497f-a0de-6bd704f3a741",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				190
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1306,
+	"collection": {
+		"requests": [
+			{
+				"id": "fc2269cc-1f7a-469f-9dba-c7b14475c3d0",
+				"method": "GET"
+			},
+			{
+				"id": "662b765f-bde8-42bb-9fb5-223e504ca7f8",
+				"method": "POST"
+			},
+			{
+				"id": "8806d02a-2889-40fb-8be3-e80a0c15af25",
+				"method": "GET"
+			},
+			{
+				"id": "bf3817a1-fda4-4cdc-a2c8-f0a4daea2dd2",
+				"method": "GET"
+			},
+			{
+				"id": "4ae98c5c-3e32-4567-aba8-da1cb0d76a2c",
+				"method": "GET"
+			},
+			{
+				"id": "f5f3b4ef-bd26-4362-8048-758a25784697",
+				"method": "GET"
+			},
+			{
+				"id": "d1b6d6d1-6c42-497f-a0de-6bd704f3a741",
+				"method": "POST"
+			}
+		]
+	}
+}
